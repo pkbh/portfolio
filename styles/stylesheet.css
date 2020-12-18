@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+html, body {
+  height: 100%;
+  background-color: #ffffff;
+  /*border: 1px solid red;*/
+
+}
+
+header {
+  /*border: 1px dotted green;*/
+  float: left;
+  padding: 3rem;
+  display: flex;
+  flex-flow: column wrap;
+
+}
+
+header ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+
+main {
+  /*border: 1px solid pink;*/
+
+}
+
+.flex-container {
+  /*border: 1px dotted blue;*/
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-flow: column wrap;
+  height: 95%;
+  padding: 3rem 1rem 2rem 1rem;
+
+}
+
+.flex-container p {/*here*/
+  /*border: 1px dotted blue;*/
+  padding: 1rem 0 0;
+
+}
+
+.flex-container ul {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1rem;
+}
+
+footer {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  /*border: 1px solid orange;*/
+
+}
+
+a {
+  text-decoration: none;
+  color: #b77b82;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: .5rem 0 1rem;
+}
+
+a:hover {
+  color: #a99bff;
+}
+
+.navigation:hover {
+  color: #a99bff;
+  padding-left: 1rem;
+  transition: all 1.25s ease;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: .95rem;
+
+}
+
+.bio-transition:hover {
+  transition: all 1s ease;
+  padding: .75rem;
+  color: #decade;
+  font-size: 1.25rem;
+
+}
+
+.bio-transition {
+  transition: all 1s ease-out;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 400;
+
+}
+
+h4 {
+
+}
+
+img {
+  max-width: 85%;
+  overflow: hidden;
+}
+
+.image-hover {
+  overflow: hidden;
+  max-width: 85%;
+}
+
+.image-hover img {
+  transition: transform 1.25s ease;
+  overflow: hidden;
+}
+
+.image-hover:hover img {
+  transform: scale(2);
+  max-width: 85%;
+}
