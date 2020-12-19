@@ -7,6 +7,66 @@
     <script src="https://kit.fontawesome.com/2e489e0ff6.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    
+    <header>
+        <h1>Kaitlin Huynh</h1>
+        <h2>Contact</h2>
+        <div>
+            <nav>
+                <ul>
+                    <li class="navigation"><a href="about-me.html">About Me</a></li>
+                    <li class="navigation"><a href="https://github.com/pkbh" target="_blank">GitHub</a></li>
+                    <li class="navigation"><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+      <div class="flex-container">
+        <h3>Let's Connect!</h3>
+
+        <form method="GET">
+
+        <label>Your Name:
+          <input type="text" name="contactName">
+        </label>
+
+        <label>Your Phone:
+          <input type="tel" name="contactPhone">
+        </label>
+
+        <label>Your Email:
+          <input type="email" name="contactEmail">
+        </label>
+
+        <fieldset>
+          <label>What should we talk about?
+            <select name="topics">
+              <option value="">Art</option>
+              <option value="">Design</option>
+              <option value="">The pursuit of happiness</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <label>Leave a message:
+          <textarea name="messageMe" rows="8" cols="80"></textarea>
+        </label>
+
+        <fieldset>
+          <legend>What is the best way to reach you? (Choose one)</legend>
+            <input type="radio" name="contactYou" value="phone">
+            <label>Phone
+          </label>
+            <input type="radio" name="contactYou" value="email">
+            <label>Email
+          </label>
+        </fieldset>
+
+        <input type="Submit" value="Submit">
+
+        </form>
+      </div>
+    </main>
   </body>
 </html>

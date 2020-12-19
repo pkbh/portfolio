@@ -129,10 +129,6 @@ h3 {
 
 }
 
-h4 {
-
-}
-
 img {
   max-width: 85%;
   overflow: hidden;
@@ -151,4 +147,34 @@ img {
 .image-hover:hover img {
   transform: scale(2);
   max-width: 85%;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 95%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem 0 1rem 0;
+}
+
+input[type=submit] {
+  background-color: #decade;
+  padding: .5rem .75rem .5rem .75rem;
+}
+
+input {
+  border-radius: 3px;
+  padding: .15rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
 }
